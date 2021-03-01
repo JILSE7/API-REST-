@@ -2,11 +2,23 @@
 
 class PurchaseRequest {
     constructor(id, creationDate, status, purchaserID, carID) {
-        this.id = id;
-        this.creationDate = creationDate;
-        this.status = status;
-        this.purchaserID = purchaserID;
-        this.carID = carID;
+            this.id = id;
+            this.creationDate = creationDate;
+            this.status = status;
+            this.purchaserID = purchaserID;
+            this.carID = carID;
+        }
+        //CRUD
+    createPucharse() {
+
+    }
+
+    updatePucharse() {
+
+    }
+
+    DeletePucharse() {
+
     }
 }
 

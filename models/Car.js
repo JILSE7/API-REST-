@@ -13,20 +13,6 @@ class Car {
         this.description = description;
         this.advertiserID = advertiserID;
     }
-
-    //CRUD
-    createCar() {
-
-    }
-
-    updateCAR() {
-
-    }
-
-    DeleteCar() {
-
-    }
-
 }
 
 module.exports = Car;

@@ -1,0 +1,287 @@
+[
+    {
+        "_id": 1,
+        "make": "Honda",
+        "model": "S2000",
+        "version": "GT",
+        "year": 2004,
+        "mileage": 85168,
+        "drivetrain": "Manual - Rear-wheel drive",
+        "chasisType": "Roadster",
+        "color": "White",
+        "photos": [
+            "https://cimg2.ibsrv.net/cimg/www.s2ki.com/1600x900_85-1/854/1-566854.jpg",
+            "https://www.pearceanddale.co.uk/wp-content/uploads/2018/11/MG_6545.jpg",
+            "https://www.pearceanddale.co.uk/wp-content/uploads/2018/11/MG_6548.jpg"
+        ],
+        "description": "Se vende bonito Civic\nSiempre bajo techo, jamas chocado, servicios y papeles en regla",
+        "price": 210000,
+        "advertiserId": 5
+    },
+    {
+        "_id": 2,
+        "make": "Mitsubishi",
+        "model": "Lancer",
+        "version": "Evolution IX",
+        "year": 2006,
+        "mileage": 67203,
+        "drivetrain": "Manual - All-wheel drive",
+        "chasisType": "Sedan",
+        "color": "Dark Gray",
+        "photos": [
+            "https://dny9h0eqgytzl.cloudfront.net/wp-content/uploads/2017/07/Tuned-Evo-IX.jpg",
+            "https://dny9h0eqgytzl.cloudfront.net/wp-content/uploads/2017/07/Tuned-Evo-9-001.jpg",
+            "https://dny9h0eqgytzl.cloudfront.net/wp-content/uploads/2017/07/Tuned-Evo-9-002.jpg"
+        ],
+        "description": "En venta Lancer Evo IX\nVersión especial, pocos kilómetros, mejoras en el motor, tren motriz y suspensión",
+        "price": 640000,
+        "advertiserId": 13
+    },
+    {
+        "_id": 3,
+        "make": "Toyota",
+        "model": "Supra",
+        "version": "RZ",
+        "year": 1999,
+        "mileage": 79054,
+        "drivetrain": "Manual - Rear-wheel drive",
+        "chasisType": "Coupe",
+        "color": "White",
+        "photos": [
+            "https://cdn.dealeraccelerate.com/international/1/264/16779/1920x1440/1993-toyota-supra-rz",
+            "https://cdn.dealeraccelerate.com/international/1/264/16772/1920x1440/1993-toyota-supra-rz",
+            "https://cdn.dealeraccelerate.com/international/1/264/15292/1920x1440/1993-toyota-supra-rz"
+        ],
+        "description": "Se vende Supra MKIV\nTwin turbo, un clásico, mejoras en turbo y semi slicks",
+        "price": 978000,
+        "advertiserId": 15
+    },
+    {
+        "_id": 4,
+        "make": "Nissan",
+        "model": "Skyline",
+        "version": "GT-R (R32)",
+        "year": 1990,
+        "mileage": 54658,
+        "drivetrain": "Manual - All-wheel drive",
+        "chasisType": "Coupe",
+        "color": "Dark Grey",
+        "photos": [
+            "https://cdn.dealeraccelerate.com/international/1/563/27351/1920x1440/1990-nissan-skyline-gt-r",
+            "https://cdn.dealeraccelerate.com/international/1/563/27325/1920x1440/1990-nissan-skyline-gt-r",
+            "https://cdn.dealeraccelerate.com/international/1/563/27328/1920x1440/1990-nissan-skyline-gt-r"
+        ],
+        "description": "En venta Nissan Skyline GT-R\nMotor RB26DETT, driveshaft mejorado, kit de turbo Garret",
+        "price": 982000,
+        "advertiserId": 16
+    },
+    {
+        "_id": 5,
+        "make": "Subaru",
+        "model": "Impreza",
+        "version": "STI 22B",
+        "year": 1998,
+        "mileage": 99214,
+        "drivetrain": "Manual - All-wheel drive",
+        "chasisType": "Coupe",
+        "color": "555 Blue Mica",
+        "photos": [
+            "https://cdn.motor1.com/images/mgl/2Xq6p/s1/low-mileage-1998-subaru-impreza-22b-sti.jpg",
+            "https://cdn.motor1.com/images/mgl/PperW/s1/low-mileage-1998-subaru-impreza-22b-sti.jpg",
+            "https://cdn.motor1.com/images/mgl/KpyrA/s1/low-mileage-1998-subaru-impreza-22b-sti.jpg"
+        ],
+        "description": "Se vende Subaru impreza 22B\nmuy rara versión, bodykit de rally",
+        "price": 978000,
+        "advertiserId": 17
+    },
+    {
+        "_id": 6,
+        "make": "Dodge",
+        "model": "Charger",
+        "version": "Daytona",
+        "year": 1969,
+        "mileage": 45230,
+        "drivetrain": "Automatic - Rear-wheel drive",
+        "chasisType": "Coupe",
+        "color": "Red",
+        "photos": [
+            "https://periodismodelmotor.com/wp-content/uploads/2020/06/subasta-dodge-daytona-2-1068x579.jpg",
+            "https://periodismodelmotor.com/wp-content/uploads/2020/06/subasta-dodge-daytona-10.jpg",
+            "https://periodismodelmotor.com/wp-content/uploads/2020/06/subasta-dodge-daytona-5.jpg"
+        ],
+        "description": "Se vende Charger DaytonaV\nMotor reconstruido, actualizado y potenciado (645HP)",
+        "price": 1950000,
+        "advertiserId": 1
+    },
+    {
+        "_id": 7,
+        "make": "Chevrolet",
+        "model": "Chevelle",
+        "version": "SS 454",
+        "year": 1970,
+        "mileage": 79054,
+        "drivetrain": "Automatic - Rear-wheel drive",
+        "chasisType": "Coupe",
+        "color": "Black",
+        "photos": [
+            "https://static.cargurus.com/images/forsale/2020/10/13/08/08/1970_chevrolet_chevelle-pic-1741121693299301519-1024x768.jpeg",
+            "https://static.cargurus.com/images/forsale/2020/10/13/08/08/1970_chevrolet_chevelle-pic-5714443444329796963-1024x768.jpeg",
+            "https://static.cargurus.com/images/forsale/2020/10/13/08/08/1970_chevrolet_chevelle-pic-7239039646183535207-1024x768.jpeg"
+        ],
+        "description": "En venta Chevelle SS\nEl mas raro, motor big block 454 pulgadas cúbicas",
+        "price": 1980000,
+        "advertiserId": 2
+    },
+    {
+        "_id": 8,
+        "make": "Chevrolet",
+        "model": "Camaro",
+        "version": "SS",
+        "year": 1969,
+        "mileage": 30776,
+        "drivetrain": "Automatic - Rear-wheel drive",
+        "chasisType": "Coupe",
+        "color": "Navy Blue",
+        "photos": [
+            "https://static.cargurus.com/images/forsale/2020/12/13/09/36/1969_chevrolet_camaro-pic-2239805128935978665-1024x768.jpeg",
+            "https://static.cargurus.com/images/forsale/2020/12/13/09/36/1969_chevrolet_camaro-pic-4943601878139185491-1024x768.jpeg",
+            "https://static.cargurus.com/images/forsale/2020/12/13/09/36/1969_chevrolet_camaro-pic-6272769118312705240-1024x768.jpeg"
+        ],
+        "description": "Se vende Camaro ZL1\nSolo se fabricaron 5, unico y muy potente",
+        "price": 1870000,
+        "advertiserId": 3
+    },
+    {
+        "_id": 9,
+        "make": "Plymouth",
+        "model": "'Cuda",
+        "version": "426",
+        "year": 1970,
+        "mileage": 69301,
+        "drivetrain": "Automatic - Rear-wheel drive",
+        "chasisType": "Coupe",
+        "color": "Sassy Grass Green",
+        "photos": [
+            "https://static.cargurus.com/images/forsale/2020/07/10/01/22/1970_plymouth_barracuda-pic-1015304331194376501-1024x768.jpeg",
+            "https://static.cargurus.com/images/forsale/2020/07/10/03/26/1970_plymouth_barracuda-pic-6611217046550958416-1024x768.jpeg",
+            "https://static.cargurus.com/images/forsale/2020/07/24/01/21/1970_plymouth_barracuda-pic-5007574367064453725-1024x768.jpeg"
+        ],
+        "description": "En venta Plymouth 'Cuda '70\nMotor 426 muy potente, muy conservado, listo para exhibición",
+        "price": 1650000,
+        "advertiserId": 6
+    },
+    {
+        "_id": 10,
+        "make": "Shelby",
+        "model": "Cobra",
+        "version": "427",
+        "year": 1965,
+        "mileage": 67084,
+        "drivetrain": "Manual - Rear-wheel drive",
+        "chasisType": "Roadster",
+        "color": "Grabber Blue",
+        "photos": [
+            "https://static.cargurus.com/images/forsale/2020/12/12/13/45/1965_ford_mustang-pic-1619114655832565635-1024x768.jpeg",
+            "https://static.cargurus.com/images/forsale/2020/12/12/13/45/1965_ford_mustang-pic-8910198198165557297-1024x768.jpeg",
+            "https://static.cargurus.com/images/forsale/2020/12/12/13/45/1965_ford_mustang-pic-7697186249795987506-1024x768.jpeg"
+        ],
+        "description": "Shelby cobra coupe en venta\nEl clasico de clásicos, puede ser tuyo ahora",
+        "price": 978000,
+        "advertiserId": 7
+    },
+    {
+        "_id": 11,
+        "make": "Porsche",
+        "model": "911",
+        "version": "Carrera S",
+        "year": 2021,
+        "mileage": 0,
+        "drivetrain": "Automatic - Rear-wheel drive",
+        "chasisType": "Coupe",
+        "color": "Silver Metallic",
+        "photos": [
+            "https://static.cargurus.com/images/forsale/2021/02/24/09/22/2020_porsche_911-pic-6666226219650343354-1024x768.jpeg",
+            "https://static.cargurus.com/images/forsale/2021/02/24/09/22/2020_porsche_911-pic-1147360808182572476-1024x768.jpeg",
+            "https://static.cargurus.com/images/forsale/2021/02/24/09/22/2020_porsche_911-pic-19436653379312656-1024x768.jpeg"
+        ],
+        "description": "Porsche 911 Carrera S totalmente nuevo!\nEstrena esta belleza, potente y bonito",
+        "price": 3489000,
+        "advertiserId": 8
+    },
+    {
+        "_id": 12,
+        "make": "McLaren",
+        "model": "Senna",
+        "version": "LM",
+        "year": 2019,
+        "mileage": 157,
+        "drivetrain": "Automatic - Rear-wheel drive",
+        "chasisType": "Coupe",
+        "color": "Black",
+        "photos": [
+            "https://static.cargurus.com/images/forsale/2021/02/18/07/45/2019_mclaren_senna-pic-1294287077607183389-1024x768.jpeg",
+            "https://static.cargurus.com/images/forsale/2021/02/18/07/45/2019_mclaren_senna-pic-1594561900418059567-1024x768.jpeg",
+            "https://static.cargurus.com/images/forsale/2021/02/18/07/45/2019_mclaren_senna-pic-6856324806681999263-1024x768.jpeg"
+        ],
+        "description": "En venta el Superdeportivo por excelencia\nPonte al volante del coche mas genial de todos los tiempos",
+        "price": 20455000,
+        "advertiserId": 10
+    },
+    {
+        "_id": 13,
+        "make": "Aston Martin",
+        "model": "DB11",
+        "version": "V12",
+        "year": 2019,
+        "mileage": 3354,
+        "drivetrain": "Automatic - Rear-wheel drive",
+        "chasisType": "Coupe",
+        "color": "Sunburst Orange",
+        "photos": [
+            "https://static.cargurus.com/images/forsale/2021/02/14/09/29/2017_aston_martin_db11-pic-1721771646027416751-1024x768.jpeg",
+            "https://static.cargurus.com/images/forsale/2021/02/14/09/29/2017_aston_martin_db11-pic-3355598814559791245-1024x768.jpeg",
+            "https://static.cargurus.com/images/forsale/2021/02/14/09/29/2017_aston_martin_db11-pic-5802498248318347023-1024x768.jpeg"
+        ],
+        "description": "Elegante Aston Martin a la venta\nSolo rodó unas cuantas ocasiones, en perfecto estado",
+        "price": 5600000,
+        "advertiserId": 11
+    },
+    {
+        "_id": 14,
+        "make": "Lamborghini",
+        "model": "Huracan",
+        "version": "Performante",
+        "year": 2018,
+        "mileage": 2560,
+        "drivetrain": "Automatic - All-wheel drive",
+        "chasisType": "Coupe",
+        "color": "Blue",
+        "photos": [
+            "https://static.cargurus.com/images/forsale/2020/12/07/03/30/2018_lamborghini_huracan-pic-1859660216312103926-1024x768.jpeg",
+            "https://static.cargurus.com/images/forsale/2020/12/07/03/30/2018_lamborghini_huracan-pic-3583872797506277202-1024x768.jpeg",
+            "https://static.cargurus.com/images/forsale/2020/12/07/03/30/2018_lamborghini_huracan-pic-6877051808783303863-1024x768.jpeg"
+        ],
+        "description": "Precioso y potente Lambo a la venta\nLleva a casa a esta bestia de circuito",
+        "price": 6355000,
+        "advertiserId": 14
+    },
+    {
+        "_id": 15,
+        "make": "Ferrari",
+        "model": "Monza",
+        "version": "SP1",
+        "year": 2021,
+        "mileage": 64,
+        "drivetrain": "Automatic - Rear-wheel drive",
+        "chasisType": "Roadster",
+        "color": "Rosso Corsa",
+        "photos": [
+            "https://autoproyecto.com/wp-content/uploads/2018/09/462566.jpg",
+            "https://static.motor.es/fotos-noticias/2018/09/min652x435/ferrari-monza-sp1-sp2-barchetta-201850240_16.jpg",
+            "https://s1.cdn.autoevolution.com/images/news/gallery/2019-ferrari-monza-sp1-revealed-alongside-monza-sp2_24.jpg"
+        ],
+        "description": "Exclusivo Ferrari a la venta\nEdicion especial monoplaza sin techo, super coleccionable",
+        "price": 8980000,
+        "advertiserId": 20
+    }
+]

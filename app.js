@@ -11,6 +11,23 @@ app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
+
+
+/*********************** Mongoose Configuration *******************************/
+const mongoose = require("mongoose");
+
+mongoose.connect(
+    "mongodb+srv://jilse17:Leonardo12@cluster0.2hane.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+);
+
+mongoose.set("debug", true);
+require("./models/User");
+require('./config/passport');
+// Aquí se importarán los modelos Mascota y Solicitud cuando estén listos
+
+/*********************** Mongoose Configuration *******************************/
+
+
 //ROUTER (ROUTER/INDEX.JS)
 app.use('/v1', require('./routes'));
 //ERRORES 404

@@ -1,0 +1,14 @@
+    { 
+    "username": "sajsjsa",
+    "firstName": "Said",
+    "lastName":"Mandujano",
+    "typeOfUser": "Anunciante",
+    "phone": "5576632262",
+    "email":"said@gmail.com",
+    "password": "nomejodas",
+    "location": "cdmx",
+    bio: "El mejor vendedor",
+    profilePhoto: ,
+    announcementList: "40 anuncios",
+    purchaseRequestsList: "",
+}

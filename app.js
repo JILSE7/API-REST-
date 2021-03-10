@@ -17,13 +17,14 @@ app.use(bodyParser.json());
 const mongoose = require("mongoose");
 
 mongoose.connect(
-    "mongodb+srv://jilse17:Leonardo12@cluster0.2hane.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+    "mongodb+srv://beduDB:123.Pass@cluster0.y6kwr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 );
 
 mongoose.set("debug", true);
 require("./models/User");
+require('./models/Car');
 require('./config/passport');
-// Aquí se importarán los modelos Mascota y Solicitud cuando estén listos
+// Aquí se importarán los modelos cuando estén listos
 
 /*********************** Mongoose Configuration *******************************/
 

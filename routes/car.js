@@ -1,14 +1,15 @@
 const router = require('express').Router();
 const {
     createCar,
-    getCar,
+    getCars,
     updateCar,
-    deletCar
+    deleteCar
 } = require('../controllers/car');
 
-router.get('/', getCar);
+router.get('/', getCars);
+router.get('/:id', getCars)
 router.post('/', createCar);
 router.put('/:id', updateCar);
-router.delete('/:id', deletCar);
+router.delete('/:id', deleteCar);
 
 module.exports = router;

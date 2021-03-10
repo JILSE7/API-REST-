@@ -12,3 +12,24 @@
     announcementList: "40 anuncios",
     purchaseRequestsList: "",
 }
+
+
+//post para añadir un nuevo car:
+{
+	"make": "Chevrolet",
+	"model": "Bel Air",
+	"version": "",
+	"year": "1957",
+	"mileage": 2000,
+	"drivetrain": "Manual - Rear-wheel drive",
+	"chasisType": "Coupe",
+	"color": "Light Blue",
+	"photos": [
+		"https://static.cargurus.com/images/forsale/2021/02/16/06/20/1957_chevrolet_bel_air-pic-4273750181702113775-1024x768.jpeg",
+		"https://static.cargurus.com/images/forsale/2021/02/12/09/43/1957_chevrolet_bel_air-pic-5717616154681740448-1024x768.jpeg",
+		"https://static.cargurus.com/images/forsale/2021/02/12/09/43/1957_chevrolet_bel_air-pic-5124828923542104406-1024x768.jpeg"
+	],
+	"description": "En Venta Bel Air '57\nUn auto muy coleccionable con algunos extras",
+	"price": 1344760,
+	"advertiserId": "6046eae92a50398baa2b4c4b"
+}

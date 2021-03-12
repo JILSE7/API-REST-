@@ -58,6 +58,19 @@ function crearUsuario(req, res, next) {
     }).catch(next)
 }
 
+
+
+function obtenerTodos(req, res, next) {
+    Usuario.find(req.usuario, (err, user) => {
+        if (!user || err) {
+            return res.sendStatus(401);
+        }
+        console.log('hola general');
+        return res.json(user);
+    }).catch(next)
+}
+
+
 function obtenerUsuarios(req, res, next) { //Obteniendo usuario desde MongoDB.
     Usuario.findById(req.usuario.id, (err, user) => {
         if (!user || err) {
@@ -146,5 +159,6 @@ module.exports = {
     obtenerUsuarios,
     modificarUsuario,
     eliminarUsuario,
-    iniciarSesion
+    iniciarSesion,
+    obtenerTodos
 }

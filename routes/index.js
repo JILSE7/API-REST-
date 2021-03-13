@@ -8,7 +8,7 @@ router.get('/', (req, res) => {
 router.use('/user', require('./user'));
 
 router.use('/car', require('./car'));
-router.use('/purchase', require('./purchaserequest'));
+router.use('/purcharse', require('./purchaserequest'));
 
 
 //EXPORTAMOS NUESTRO ROUTER;

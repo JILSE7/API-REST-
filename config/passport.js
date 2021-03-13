@@ -3,6 +3,7 @@ const LocalStrategy = require('passport-local').Strategy; //Importando estrategi
 const mongoose = require('mongoose');
 const Usuario = mongoose.model('Usuario');
 
+
 passport.use(new LocalStrategy({ //Configurando elementos utilizados para habilitar sesión.
     usernameField: 'email',
     passwordField: 'password'

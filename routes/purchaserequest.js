@@ -1,14 +1,16 @@
 const router = require('express').Router();
 const {
-    createPR,
-    getPR,
-    updatePR,
-    deletePR
+    createPucharseRequest,
+    getPucharse,
+    getPucharseId,
+    updatePucharse,
+    deletePucharse
 } = require('../controllers/purchaserequest');
 
-router.get('/', getPR);
-router.post('/', createPR);
-router.put('/:id', updatePR);
-router.delete('/:id', deletePR);
+router.get('/', getPucharse);
+router.get('/:id', getPucharseId);
+router.post('/', createPucharseRequest);
+router.put('/:id', updatePucharse);
+router.delete('/:id', deletePucharse);
 
 module.exports = router;

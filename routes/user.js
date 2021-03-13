@@ -15,20 +15,20 @@
 
 const router = require('express').Router();
 const {
-    crearUsuario,
-    obtenerUsuarios,
-    modificarUsuario,
-    eliminarUsuario,
-    iniciarSesion,
-    obtenerTodos
+    createUser,
+    getUser,
+    updateUser,
+    deleterUser,
+    logIn,
+    getAllUser
 } = require('../controllers/user')
 const auth = require('./auth');
 
-router.get('/', obtenerTodos)
-router.get('/:id', auth.requerido, obtenerUsuarios);
-router.post('/', crearUsuario)
-router.post('/entrar', iniciarSesion)
-router.put('/:id', auth.requerido, modificarUsuario)
-router.delete('/:id', auth.requerido, eliminarUsuario)
+router.get('/', getAllUser)
+router.get('/:id', auth.requerido, getUser);
+router.post('/', createUser)
+router.post('/entrar', logIn)
+router.put('/:id', auth.requerido, updateUser)
+router.delete('/:id', auth.requerido, deleterUser)
 
 module.exports = router;

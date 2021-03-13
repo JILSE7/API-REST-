@@ -45,7 +45,7 @@ const mongoose = require("mongoose")
 const Usuario = mongoose.model("Usuario")
 const passport = require('passport');
 
-function crearUsuario(req, res, next) {
+function createUser(req, res, next) {
     // Instanciaremos un nuevo usuario utilizando la clase usuario
     const body = req.body,
         password = body.password
@@ -60,7 +60,7 @@ function crearUsuario(req, res, next) {
 
 
 
-function obtenerTodos(req, res, next) {
+function getAllUser(req, res, next) {
     Usuario.find(req.usuario, (err, user) => {
         if (!user || err) {
             return res.sendStatus(401);
@@ -71,7 +71,7 @@ function obtenerTodos(req, res, next) {
 }
 
 
-function obtenerUsuarios(req, res, next) { //Obteniendo usuario desde MongoDB.
+function getUser(req, res, next) { //Obteniendo usuario desde MongoDB.
     Usuario.findById(req.usuario.id, (err, user) => {
         if (!user || err) {
             return res.sendStatus(401)
@@ -80,7 +80,7 @@ function obtenerUsuarios(req, res, next) { //Obteniendo usuario desde MongoDB.
     }).catch(next);
 }
 
-function modificarUsuario(req, res, next) {
+function updateUser(req, res, next) {
     console.log(req.usuario)
     Usuario.findById(req.usuario.id).then(user => {
         if (!user) { return res.sendStatus(401); }
@@ -126,14 +126,16 @@ id: this.id,
 
 */
 
-function eliminarUsuario(req, res) {
+function deleterUser(req, res) {
     // únicamente borra a su propio usuario obteniendo el id del token
-    Usuario.findOneAndDelete({ _id: req.usuario.id }).then(r => { //Buscando y eliminando usuario en MongoDB.
-        res.status(200).send(`Usuario ${req.params.id} eliminado: ${r}`);
-    })
+    Usuario.findOneAndDelete({ _id: req.usuario.id })
+        .then(r => { //Buscando y eliminando usuario en MongoDB.
+            console.log(r);
+            res.status(200).send(`Usuario con id ${req.params.id} con nombre ${r.username} eliminado`);
+        }).catch(res.status(422).json({ errors: `Usuario ${req.params.id} no encontrado` }));
 }
 
-function iniciarSesion(req, res, next) {
+function logIn(req, res, next) {
     if (!req.body.email) {
         return res.status(422).json({ errors: { email: "no puede estar vacío" } });
     }
@@ -155,10 +157,10 @@ function iniciarSesion(req, res, next) {
 }
 
 module.exports = {
-    crearUsuario,
-    obtenerUsuarios,
-    modificarUsuario,
-    eliminarUsuario,
-    iniciarSesion,
-    obtenerTodos
+    createUser,
+    getUser,
+    updateUser,
+    deleterUser,
+    logIn,
+    getAllUser
 }

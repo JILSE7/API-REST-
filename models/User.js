@@ -136,8 +136,7 @@ UsuarioSchema.methods.publicData = function() {
         purchaseRequestsList: this.purchaseRequestsList,
         announcementList: this.announcementList,
         createdAt: this.createdAt,
-        updatedAt: this.updatedAt,
-        token: this.token
+        updatedAt: this.updatedAt
     };
 };
 

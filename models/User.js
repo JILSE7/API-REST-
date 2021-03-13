@@ -116,6 +116,8 @@ UsuarioSchema.methods.toAuthJSON = function() {
     };
 };
 
+
+
 /**
  * Devuelve la representación de un usuario, sólo datos públicos
  */
@@ -134,7 +136,8 @@ UsuarioSchema.methods.publicData = function() {
         purchaseRequestsList: this.purchaseRequestsList,
         announcementList: this.announcementList,
         createdAt: this.createdAt,
-        updatedAt: this.updatedAt
+        updatedAt: this.updatedAt,
+        token: this.token
     };
 };
 

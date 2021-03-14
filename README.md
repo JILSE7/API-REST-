@@ -118,32 +118,32 @@ ahorro de almacenamiento.*
 
 Modelo Entidad-Relación:
 
-![Modelo-Entidad-Relacion](/database/ModeloEntidadRelacion.png)
+![Modelo-Entidad-Relacion](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/database/ModeloEntidadRelacion.png?raw=true)
 
 Modelo Relacional:
 
-![Modelo-Relacional](/database/ModeloRelacional.png)
+![Modelo-Relacional](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/database/ModeloRelacional.png?raw=true)
 
 #### Visualización de tablas en MySQL
 
 > **Tabla Usuario**
 >
-> ![Tabla-Usuario](/database/DescribeUser.png)
+> ![Tabla-Usuario](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/database/DescribeUser.png?raw=true)
 > 
 > **Tabla Auto**
 >
-> ![Tabla-Auto](/database/DescribeCar.png)
+> ![Tabla-Auto](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/database/DescribeCar.png?raw=true)
 >
 > **Tabla PurchaseRequest**
 >
-> ![Tabla-PurchaseRequest](/database/DescribePurchaseRequest.png)
+> ![Tabla-PurchaseRequest](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/database/DescribePurchaseRequest.png?raw=true)
 > 
 > **Script de SQL**
 > Si aún quieres revisar nuestra propuesta para el modelo SQL, puedes consultar el **[Script de SQL](/database/database.sql)**
 
 ### Colecciones en MongoDB Atlas (NoSQL)
 
-![Mongo-db-Collections](/assets/img/DB_Collections.png)
+![Mongo-db-Collections](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/assets/img/DB_Collections.png?raw=true)
 
 #### Agregando registros a la BD
 
@@ -206,29 +206,29 @@ ElRegistro de una peticion de compra (Purchase Request) Debe tener un cuerpo com
 ```bash
 db.user.find({$or: [{"location": /Morelos$/}, {"location": /CDMX$/}]});
 ```
-![Mongo-db-ComplexQuery1](/assets/img/DB_ComplexQuery1.png)
+![Mongo-db-ComplexQuery1](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/assets/img/DB_ComplexQuery1.png?raw=true)
 ----
 **Segunda consulta Compleja:** *Carros de marca Chevrolet con un precio menor de $190,000.*
 ```bash
 db.car.find({$and: [{"make": "Chevrolet"}, {"price": {$lt: 190000}}]});
 ```
-![Mongo-db-ComplexQuery2](/assets/img/DB_ComplexQuery2.png)
+![Mongo-db-ComplexQuery2](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/assets/img/DB_ComplexQuery2.png?raw=true)
 
 **Tercera consulta compleja:** *Peticiones de compra de algún carro que fueron rechazadas antes del 2020.*
 ```bash
 db.purchase_request.find({$and: [{"status": "Rejected"}, {"creationDate": {$lt: "2020-01-01"}}]});
 ```
-![Mongo-db-ComplexQuery3](/assets/img/DB_ComplexQuery3.png)
+![Mongo-db-ComplexQuery3](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/assets/img/DB_ComplexQuery3.png?raw=true)
 
 **Cuarta consulta compleja:** *Usuarios que solamente son compradores.*
 ```bash
 db.user.find({$and: [{"typeOfUser":"Purchaser"}, {"typeOfUser":{$size:1}}]});
 ```
-![Mongo-db-ComplexQuery4](/assets/img/DB_ComplexQuery4.png)
+![Mongo-db-ComplexQuery4](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/assets/img/DB_ComplexQuery4.png?raw=true)
 
 **Quinta consulta compleja:** Carros con menos de 100,000 kilómetros recorridos, de un año menor o igual a 2000 y de color blanco.
 ```bash
 db.car.find({$and: [{"mileage":{$lt: 100000}},
 {"year":{$lte: 2000}},{"color":"White"}]});
 ```
-![Mongo-db-ComplexQuery5](/assets/img/DB_ComplexQuery5.png)
+![Mongo-db-ComplexQuery5](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/assets/img/DB_ComplexQuery5.png?raw=true)

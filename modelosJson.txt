@@ -1,0 +1,14 @@
+  { 
+    "make": ""
+    "model": "",
+    "version":""
+    "year": ""
+    mileage: ""
+    drivetrain: "",
+    chasisType: "",
+    "color": "",
+    "photos": "",
+    "description":"",
+    "price": "",
+    "advertiserId":""
+  }

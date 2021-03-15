@@ -54,7 +54,7 @@ function updatePucharse(req, res, next) {
         if (newInfo.carID !== 'undefined')
             pucharse.carId = newInfo.carId
 
-        solicitud.save().then(updatedSolicitud => {
+        pucharse.save().then(updatedSolicitud => {
             res.status(201).json(updatedSolicitud.publicData())
         }).catch(next)
     }).catch(next)

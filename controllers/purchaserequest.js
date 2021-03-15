@@ -51,7 +51,7 @@ function updatePucharse(req, res, next) {
             pucharse.compradorId = newInfo.compradorId
         if (newInfo.advertiserId !== 'undefined')
             pucharse.advertiserId = newInfo.advertiserId
-        if (newInfo.carID !== 'undefined')
+        if (newInfo.carId !== 'undefined')
             pucharse.carId = newInfo.carId
 
         pucharse.save().then(updatedSolicitud => {

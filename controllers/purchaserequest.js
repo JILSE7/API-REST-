@@ -62,6 +62,7 @@ function updatePucharse(req, res, next) {
 
 //Eliminar una solicitud por id
 function deletePucharse(req, res) {
+    console.log('hola');
     console.log('hola', req.params.id);
     PucharseRequest.findOneAndDelete({ _id: req.params.id }).then(solicitud => {
         res.status(200).send(`Car ${req.params.id} deleted: ${solicitud}`);

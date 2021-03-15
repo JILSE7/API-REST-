@@ -1,11 +1,15 @@
 # **Proyecto final: Backend Fundamentals (API)**
 
 ### Visita el API
+
 [https://team8-api.herokuapp.com/v1/](https://team8-api.herokuapp.com/v1/)
+
 ![Visita el API](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/assets/img/QRs/API_QR.jpeg?raw=true)
 
 ### Extra - Visita el CRM
+
 [https://jilse7.github.io/CRM-API-BEDU/]( https://jilse7.github.io/CRM-API-BEDU/)
+
 ![Visita el CRM](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/assets/img/QRs/CRM_QR.jpeg?raw=true)
 
 

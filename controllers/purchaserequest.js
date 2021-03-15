@@ -46,13 +46,13 @@ function updatePucharse(req, res, next) {
         if (!solicitud) { return res.sendStatus(401) }
         let newInfo = req.body
         if (newInfo.status !== 'undefined')
-            auto.status = newInfo.status
+            pucharse.status = newInfo.status
         if (newInfo.purchaserID !== 'undefined')
-            auto.purchaserID = newInfo.purchaserID
+            pucharse.compradorId = newInfo.compradorId
         if (newInfo.advertiserId !== 'undefined')
-            auto.advertiserId = newInfo.advertiserId
+            pucharse.advertiserId = newInfo.advertiserId
         if (newInfo.carID !== 'undefined')
-            auto.carID = newInfo.carID
+            pucharse.carId = newInfo.carId
 
         solicitud.save().then(updatedSolicitud => {
             res.status(201).json(updatedSolicitud.publicData())

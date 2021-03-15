@@ -9,7 +9,7 @@ router.get('/', (req, res) => {
 //DEFINIENDO LAS RUTAS A NUESTRAS COLECCIONES
 router.use('/user', require('./user'));
 router.use('/car', require('./car'));
-router.use('/purcharse', require('./purchaserequest'));
+router.use('/pucharse', require('./purchaserequest'));
 
 
 //EXPORTAMOS NUESTRO ROUTER;

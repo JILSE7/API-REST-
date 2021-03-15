@@ -42,8 +42,8 @@ function getPucharseId(req, res, next) { //Obteniendo usuario desde MongoDB.
 //Actualizar la solicitud por Id
 function updatePucharse(req, res, next) {
     console.log(req.pucharse);
-    PucharseRequest.findById(req.params.id).then(solicitud => {
-        if (!solicitud) { return res.sendStatus(401) }
+    PucharseRequest.findById(req.params.id).then(pucharse => {
+        if (!pucharse) { return res.sendStatus(401) }
         let newInfo = req.body
         if (newInfo.status !== 'undefined')
             pucharse.status = newInfo.status

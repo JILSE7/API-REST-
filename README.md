@@ -1,5 +1,12 @@
 # **Proyecto final: Backend Fundamentals (API)**
 
+### Visita el API
+![Visita el API](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/assets/img/QRs/API_QR.jpeg?raw=true)
+
+### Extra - Visita el CRM
+![Visita el CRM](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/assets/img/QRs/CRM_QR.jpeg?raw=true)
+
+
 Por común acuerdo, cada integrante del equipo número 08 pensamos en la idea de establecer un API cuyo propósito es ayudar a las personas a encontrar un buen auto (no necesariamente nuevo), así como invitarlos a publicar sus autos, en caso de que deseen ponerlo a la venta. Se espera que éste aPI sea exclusivamente para autos, pues como sabemos, los sitios de compra-venta de hoy en día, regularmente incluyen mas que solo autos.
 
 Creemos que el proyecto ayudará a los usuarios a encontrar autos cercanos a su ubicación, revisar las opciones disponibles, y encontrar una propuesta acorde a sus necesidades.
@@ -10,9 +17,9 @@ A corto plazo, del proyecto se espera que se puedan generar solicitudes de compr
 > *sabemos que no es algo **innovador**, si no que queremos entender como es el funcionamiento de un **e-commerce***
 
 Tenemos la visión a largo plazo del que proyecto se pueda comportar como una plataforma de gran prestigio como:
-* **[Mercado libre](https://autos.mercadolibre.com.mx)**
-* **[Kavak](https://www.kavak.com/)**
-* **[Segunda mano](https://www.segundamano.mx/)**
+- **[Mercado libre](https://autos.mercadolibre.com.mx)**
+- **[Kavak](https://www.kavak.com/)**
+- **[Segunda mano](https://www.segundamano.mx/)**
 
 Esto con el fin de ver como es el funcionamiento de estas plataformas donde integran diversos servicios como principalmente, chat en tiempo real, generación de artículos que le puedan agradar al cliente en base a su búsqueda como también las opciones de pago.
 
@@ -118,11 +125,11 @@ ahorro de almacenamiento.*
 
 Modelo Entidad-Relación:
 
-![Modelo-Entidad-Relacion](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/database/ModeloEntidadRelacion.png?raw=true)
+![Modelo-Entidad-Relacion](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/assets/img/Entity-Relationship-Model.png?raw=true)
 
 Modelo Relacional:
 
-![Modelo-Relacional](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/database/ModeloRelacional.png?raw=true)
+![Modelo-Relacional](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/assets/img/Relational-Model.png?raw=true)
 
 #### Visualización de tablas en MySQL
 
@@ -149,7 +156,7 @@ Modelo Relacional:
 
 **Usuarios**
 El contenido de un registro de usuario debe tener un cuerpo parecido al siguiente:
-```bash
+```json
 { 
     "username": "sajsjsa",
     "firstName": "Said",
@@ -168,7 +175,7 @@ El contenido de un registro de usuario debe tener un cuerpo parecido al siguient
 
 **Autos**
 El registro de un auto contiene el siguiente cuerpo:
-```bash
+```json
 {
     "make": "Chevrolet",
     "model": "Bel Air",
@@ -191,7 +198,7 @@ El registro de un auto contiene el siguiente cuerpo:
 
 **PurchaseRequest**
 ElRegistro de una peticion de compra (Purchase Request) Debe tener un cuerpo como el siguiente:
-```bash
+```json
 {
     "carId": "6046eae92a50398baa2b4c4b",
     "advertiserId": "bae86cba6e836baeafa8b65f",
@@ -232,3 +239,46 @@ db.car.find({$and: [{"mileage":{$lt: 100000}},
 {"year":{$lte: 2000}},{"color":"White"}]});
 ```
 ![Mongo-db-ComplexQuery5](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/assets/img/DB_ComplexQuery5.png?raw=true)
+
+----
+## Swagger
+
+#### Base URL: [https://team8-api.herokuapp.com/v1](https://team8-api.herokuapp.com/v1)
+
+El ***[Documento Swagger](https://github.com/JILSE7/API-REST-/blob/dev/BrandonAlberto/Swagger-Team8.pdf)*** Explica al usuario las diversas peticiones que se pueden realizar a nuestra API
+
+> #### Peticiones sobre USER (usuarios)
+>
+> ![User-Request#1](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/assets/img/Swagger/userSwaggerRequest1.png?raw=true)
+>
+> ![User-Request#2](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/assets/img/Swagger/userSwaggerRequest2.png?raw=true)
+>
+> ![User-Request#3](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/assets/img/Swagger/userSwaggerRequest3.png?raw=true)
+> 
+> ![User-Request#4](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/assets/img/Swagger/userSwaggerRequest4.png?raw=true)
+>
+> ![User-Request#4](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/assets/img/Swagger/userSwaggerRequest5.png?raw=true)
+
+> #### Peticiones sobre CAR (autos)
+>
+> ![Car-Request#1](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/assets/img/Swagger/carSwaggerRequest1.png?raw=true)
+>
+> ![Car-Request#2](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/assets/img/Swagger/carSwaggerRequest2.png?raw=true)
+>
+> ![Car-Request#3](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/assets/img/Swagger/carSwaggerRequest3.png?raw=true)
+>
+> ![Car-Request#4](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/assets/img/Swagger/carSwaggerRequest4.png?raw=true)
+>
+> ![Car-Request#5](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/assets/img/Swagger/carSwaggerRequest5.png?raw=true)
+
+> #### Peticiones sobre PURCHASEREQUEST (peticiones de compra)
+>
+> ![PurchaseRequest-Request#1](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/assets/img/Swagger/purchaseSwaggerRequest1.png?raw=true)
+>
+> ![PurchaseRequest-Request#2](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/assets/img/Swagger/purchaseSwaggerRequest2.png?raw=true)
+>
+> ![PurchaseRequest-Request#3](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/assets/img/Swagger/purchaseSwaggerRequest3.png?raw=true)
+>
+> ![PurchaseRequest-Request#4](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/assets/img/Swagger/purchaseSwaggerRequest4.png?raw=true)
+>
+> ![PurchaseRequest-Request#5](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/assets/img/Swagger/purchaseSwaggerRequest5.png?raw=true)

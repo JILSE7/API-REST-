@@ -1,10 +1,10 @@
 # **Proyecto final: Backend Fundamentals (API)**
 
 ### Visita el API
-[]()
+[Visita el API](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/assets/img/QRs/API_QR.jpeg?raw=true)
 
 ### Extra - Visita el CRM
-[]()
+[Visita el CRM](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/assets/img/QRs/CRM_QR.jpeg?raw=true)
 
 
 Por común acuerdo, cada integrante del equipo número 08 pensamos en la idea de establecer un API cuyo propósito es ayudar a las personas a encontrar un buen auto (no necesariamente nuevo), así como invitarlos a publicar sus autos, en caso de que deseen ponerlo a la venta. Se espera que éste aPI sea exclusivamente para autos, pues como sabemos, los sitios de compra-venta de hoy en día, regularmente incluyen mas que solo autos.

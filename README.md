@@ -118,11 +118,11 @@ ahorro de almacenamiento.*
 
 Modelo Entidad-Relación:
 
-![Modelo-Entidad-Relacion](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/database/ModeloEntidadRelacion.png?raw=true)
+![Modelo-Entidad-Relacion](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/assets/img/Entity-Relationship-Model.png?raw=true)
 
 Modelo Relacional:
 
-![Modelo-Relacional](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/database/ModeloRelacional.png?raw=true)
+![Modelo-Relacional](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/assets/img/Relational-Model.png?raw=true)
 
 #### Visualización de tablas en MySQL
 

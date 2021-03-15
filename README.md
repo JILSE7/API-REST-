@@ -277,14 +277,14 @@ El ***[Documento Swagger](https://github.com/JILSE7/API-REST-/blob/dev/BrandonAl
 >
 > ![Car-Request#5](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/assets/img/Swagger/carSwaggerRequest5.png?raw=true)
 
-> #### Peticiones sobre PURCHASEREQUEST (peticiones de compra)
+> #### Peticiones sobre PUCHARSEREQUEST (peticiones de compra)
 >
-> ![PurchaseRequest-Request#1](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/assets/img/Swagger/purchaseSwaggerRequest1.png?raw=true)
+> ![PucharseRequest-Request#1](https://github.com/JILSE7/API-REST-/blob/deploy/img/puchar1.JPG?raw=true)
 >
-> ![PurchaseRequest-Request#2](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/assets/img/Swagger/purchaseSwaggerRequest2.png?raw=true)
+> ![PucharseRequest-Request#2](https://github.com/JILSE7/API-REST-/blob/deploy/img/puchar2.JPG?raw=true)
 >
-> ![PurchaseRequest-Request#3](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/assets/img/Swagger/purchaseSwaggerRequest3.png?raw=true)
+> ![PucharseRequest-Request#3](https://github.com/JILSE7/API-REST-/blob/deploy/img/puchar3.JPG?raw=true)
 >
-> ![PurchaseRequest-Request#4](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/assets/img/Swagger/purchaseSwaggerRequest4.png?raw=true)
+> ![PucharseRequest-Request#4](https://github.com/JILSE7/API-REST-/blob/deploy/img/puchar4.JPG?raw=true)
 >
-> ![PurchaseRequest-Request#5](https://github.com/JILSE7/API-REST-/blob/dev/AntonioMillan/assets/img/Swagger/purchaseSwaggerRequest5.png?raw=true)
+> ![PuchaseRequest-Request#5](https://github.com/JILSE7/API-REST-/blob/deploy/img/puchar5.JPG?raw=true)
